@@ -1,0 +1,79 @@
+<html>
+<!-- Beginning of the Contact Me Page -->
+  <head>
+    <!-- Links to the stylesheet and the Google Fonts font style -->
+  <link rel="stylesheet" type="text/css" href="homepagestyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <!-- This Div is meant to for the side navigation bar -->
+  <div class="sidenav">
+    <img src="menuicon.jpg" width="72px" height="72px" style="display: block; margin: 0 auto;">
+    <a href="Homepage.html">Home</a>
+    <a href="Aboutme.html">About Me</a>
+    <a href="CV.html">CV</a>
+    <a href="Contactme.html">Contact Me</a>
+    <a href="Projects.html">Projects</a>
+  </div>
+  <!-- this Div is meant for the banner that is viewable at the top of the webpage. -->
+  <div class="banner">
+    <h1>Fraser Irvine's Website</h1>
+  </div>
+
+  <main>
+    <!-- displays the title of the page -->
+    <div class="contactmeTitle" style="text-align: center;">
+      <h1><u>Contact Me</u><h1>
+    </div>
+    <!-- a small amount of text to show how to communicate with me -->
+    <div class="contactmeText" style="margin-left: 20px; font-size: 24px;">
+      <p>You may use the following methods to contact me:</p>
+    </div>
+    <!-- this form will be used for contacting me via email when the user puts in correct information -->
+    <div class="contactmeForm" style="margin-left: 20px;">
+      <form id="contactForm" action="MAILTO:fraser.irvine@outlook.com">
+        Name:<br>
+        <input type="text" name="fullName">
+        <br>
+        e-Mail:<br>
+        <input type="text" name="email">
+        <br>
+      </form>
+      <textarea rows="8" cols="56" name="message" form="contactForm">Enter your message here
+      </textarea>
+      <br>
+      <input type="submit" form="contactForm">
+      <br>
+      <br>
+    </div>
+    <!-- this table will contain information on how to contact me and methods -->
+    <div class="contactmeTable" style="margin-left: 20px;">
+
+      <table>
+        <tr>
+          <!-- phone contact (i wish to keep my phone private at the moment) -->
+          <th><img src="phoneicon.png" width="100px" height="100px"></th>
+          <th>: 1234567890</th>
+        </tr>
+        <tr>
+          <!-- email contact -->
+          <th><img src="emailicon.png" width="100px" height="100px"></th>
+          <th>: fraser.irvine@outlook.com</th>
+        </tr>
+        <tr>
+          <!-- github profile -->
+          <th><img src="githubicon.png" width="100px" height="100px"></th>
+          <th>: https://github.com/Fynises</th>
+        </tr>
+        <tr>
+          <!-- linkedin profile (i don't have a linkedin account yet so its blank) -->
+          <th><img src="linkedinicon.png" width="100px" height="100px"></th>
+          <th>: Link</th>
+        </tr>
+      </table>
+
+    </div>
+  </main>
+</body>
+
+</html>
